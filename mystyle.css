@@ -1,0 +1,280 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 12pt;
+    background-color: #a6a6a6;
+    padding: 10px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 15pt;
+    color: orangered;
+    color: black;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+
+h1 span {
+    border: 4px black;
+    padding: 10px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.section {
+    background-color: #ffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    align-content: center
+}
+
+
+#pwalign{
+    padding-left: 0;
+    
+}
+
+
+.article {
+    color: black;
+    background-color: #f2f2f2;
+    background-size: contain;
+    width: 15%;
+
+
+}
+
+#header {
+    background-image: url("https://i.pinimg.com/564x/0d/af/b7/0dafb7928a99a9cb552a941895a6e586.jpg");
+    background-size: cover;
+}
+
+#header img {
+    display: inline-table;
+    width: 220px;
+    height: 220px;
+    margin: auto;
+    align-items: center
+}
+
+#header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #cccccc;
+    word-spacing: "30px";
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    font-size: 17px;
+    
+
+}
+
+.quote {
+    font-size: 10pt;
+    text-align: right;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    font-size: 11pt;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+
+.selected {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
+}
+
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+progress {
+    width: 70%;
+    height: 20px;
+    color: honeydew;
+    background: black;
+}
+
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+
+progress::-webkit-progress-value {
+    background: #3939ac;
+    text-align: right
+}
+
+progress::-moz-progress-bar {
+    color: #3939ac;
+    background: #efefef;
+}
+
+iframe,
+audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #3fb6b2;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}
+
+form {
+    text-align: justify;
+    margin-top: 0;
+}
+
+.submit {
+    background-color: black;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+
+.submit:hover {
+    background-color: #43a09d;
+}
+
+textarea {
+    height: 100px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#contacts a {
+    text-decoration: none;
+}
+
+#contacts img:hover {
+    opacity: 0.8;
+}
+
+#contacts {
+    text-align: center;
+}
+
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+fieldset {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px auto;
+    width: 50;
+    text-align:left;
+    display: block;
+    align-content: stretch
+        
+}
+
+legend {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+    padding: 8px;
+    width: 300;
+    display: block;
+}
+
+hr {
+    border: 2px solid #eee;
+}
+
+
+

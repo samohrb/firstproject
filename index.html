@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Samkova stranocka</title>
+    <link href="mystyle.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header" class="section">
+            <img alt="" class="" src="IMG_0994.JPG" width="50" height="60%" border="2px">
+            <p> <cite> My first project</cite></p>
+        </div>
+    </header>
+
+
+    <div id="navbar">
+        <a href="#home">Home</a>
+        <a href="#login">Login</a>
+        <a href="#footer">Contact</a>
+        <a href="#myskills">My Skills</a>
+        <a href="#mymedia">My Media</a>
+    
+    </div>
+
+
+
+
+
+    <!-- About Me section start -->
+    <div class="section">
+        <h1><span>About Me</span></h1>
+        <p>
+            Hey! I am <strong>Samuel</strong>. This is my webpage
+        </p>
+        <p class="quote">"Citius Altius Fortius"</p>
+        <p> How are you? :)</p>
+    </div>
+    
+    <!-- About Me section end -->
+
+    <div class="section">
+        <h4 align="center" style="color:darkred">Login </h4>
+        <hr>
+        <form action="mojastranka2.html" method="post">
+            <table align="center" border="100">
+
+                <tr>
+                    <td>username: </td>
+                    <td>
+                        <input type="text" name="username" autofocus required placeholder="Enter the user name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> password: </td>
+                    <td>
+                        <input id="pwalign" type="password" name="password" required placeholder="Enter your password">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" value="Login" class="submit">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+
+
+    <!--my social sites-->
+    <article class="article">
+        <ol>
+            <li><a href="https://www.instagram.com/samo.hrbacek/?hl=en" target="_blank">My Instagram</a></li>
+            <li><a href="https://www.facebook.com/samo.hrbacek.1" target="_blank"> My Facebook</a></li>
+            <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+        </ol>
+    </article>
+    <!-- My Schedule section start -->
+    <div class="section">
+        <h2><span>My training schedule</span></h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <td>8-8:30</td>
+                <td class="selected">Upper body</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>9-10</td>
+                <td></td>
+                <td class="selected">Lower body</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1-1:30</td>
+                <td></td>
+                <td></td>
+                <td class="selected">Upper body</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3:45-5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="selected">Lower body</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6-6:15</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="selected">Upper body</td>
+            </tr>
+        </table>
+    </div>
+    <!-- My Schedule section end -->
+
+    <!--SKILL REGISTER -->
+
+    <form name="Skills register">
+
+        <fieldset>
+            <legend>personal information</legend>
+            <label>Name</label>
+            <input type="text" name="user name">
+            <label>Age</label>
+            <input type="text" name="age">
+            <label>E-mail</label>
+            <input type="text" name="email">
+            <label>Level</label>
+            <select name="level">
+                <option value="1">beginner</option>
+                <option value="2">intermediate</option>
+                <option value="3">advanced</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <label>Which skill do you want to learn</label>
+            A) HSPU<input type="checkbox" name="skill" value="hspu" /><br />
+            B) Front lever<input type="checkbox" name="skill" value="front" /><br />
+            C) Back lever<input type="checkbox" name="skill" value="back" /><br />
+            D) Muscle up<input type="checkbox" name="skill" value="mu" /><br />
+            <hr>
+            <label>skill level: pullups,pike pushups</label>
+            -15<input type="radio" name="lvl">
+            <br />
+            15-25 <input type="radio" name="lvl"><br />
+            25+ <input type="radio" name="lvl">
+            <hr>
+        </fieldset>
+    </form>
+
+
+        <!-- My Skills section start -->
+        <div class="section">
+            <h1 id="myskills"><span>My Skills</span></h1>
+            <ul>
+                <li>handbalancing <br />
+                    <progress min="0" max="100" value="40"></progress>
+                </li>
+                <li>military press <br />
+                    <p>0</p> <progress min="0" max="100" value="60"></progress>
+                    <p align="center">100</p>
+                </li>
+                <li>drep <br />
+                    <p>0</p> <progress min="0" max="200" value="130"></progress>
+                    <p align="center">100</p>
+                </li>
+                <li> Mobility <br />
+                    <p>0</p> <progress min="0" max="100" value="50"></progress>
+                    <p align="center">100 </p>
+                </li>
+                <li> Pull Up <br />
+                    <p>0</p> <progress min="0" max="100" value="40"></progress>
+                    <p align="center">100</p>
+                </li>
+            </ul>
+        </div>
+        <!-- My Skills section end -->
+
+        <article class="article">
+            <ol>This is just an ordered list</ol>
+            <li>With a song link </li>
+            <li> <a href="https://www.youtube.com/watch?v=gJLIiF15wjQ" target="_blank"> right here</a></li>
+        </article>
+
+        <!-- Media section start -->
+        <div class="section">
+            <h1 id="mymedia"><span>My Media</span></h1>
+            <audio width="320" height="240" controls >
+                <source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/mpeg">
+                <source src="http://www.sololearn.com/uploads/audio.ogg" type="audio/ogg"> 
+            </audio>
+            
+            <video  controls width="400px" height="300px" >
+                <source src="http://www.sololearn.com/uploads/video.mp4" type="video/mp4">
+                
+            </video>
+            
+            <iframe src="https://www.youtube.com/embed/Y7dpJ0oseIA"></iframe>Bober
+        </div>
+        <!-- Media section end -->
+
+        <!-- Link na druhu stranku-->
+        <h2><strong>My Subpage</strong></h2>
+        <a href="mojastranka2.html" target="_blank">Click here</a>
+
+
+
+        <a href="mojastranka2.html" target="_blank">
+            <img src="IMG_0997.JPG" width="20%" height="20%" alt="MojaStranka2" />
+        </a>
+
+        <!-- Form section start -->
+        <div class="section">
+            <h1><span>Contact Me</span></h1>
+
+            <svg class="face" height="100" width="100">
+                <circle cx="50" cy="50" r="50" fill="#FDD835" />
+                <circle cx="30" cy="30" r="10" fill="#FFFFFF" />
+                <circle cx="70" cy="30" r="10" fill="#FFFFFF" />
+                <circle cx="30" cy="30" r="5" fill="#000000" />
+                <circle cx="70" cy="30" r="5" fill="#000000" />
+                <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+            </svg>
+
+            <form>
+                <input name="name" placeholder="Name" type="text" required /><br />
+                <input name="email" placeholder="Email" type="email" required /><br />
+                <textarea name="message" placeholder="Message" required></textarea>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
+        <!-- Form section end -->
+
+        <!-- Contacts section start -->
+        <footer id="footer">
+            <div class="section" id="contacts">
+                <h1><span>Follow Me</span></h1>
+                <div>
+                    <a href="#" target="_blank">
+                        <img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png" />
+                    </a>
+                    <a href="#" target="_blank">
+                        <img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
+                    </a>
+                </div>
+                <p>my email: hrbacek.samo09@gmail.com</p>
+            </div>
+            <!-- Contacts section end -->
+
+
+
+            <div class="copyright">
+                &copy; 2020 My Blog. All rights reserved.
+            </div>
+
+
+        </footer>
+
+</body>
+
+</html>
